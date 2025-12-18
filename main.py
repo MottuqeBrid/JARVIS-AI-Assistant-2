@@ -1,6 +1,7 @@
 import os
 import eel
 from backend.feature import *
+from backend.command import *
 
 eel.init("frontend")
 os.system("start chrome.exe --app = http://127.0.0.1:5500/")
